@@ -84,11 +84,11 @@ window.sr = ScrollReveal();
 
 
 	}); 
-		sr.reveal('.flores1', {
+		sr.reveal('.imagenP', {
 		duration: 2000, //tiempo
 		delay:500,
-		origin: 'top', //origen
-		distance: '30px' //distancia
+		origin: 'bottom', //origen
+		distance: '100px' //distancia
 
 
 	}); 

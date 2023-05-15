@@ -5,23 +5,23 @@ window.sr = ScrollReveal();
 		duration: 2000, //tiempo
 		//delay:1500,
 		origin: 'top', //origen
-		distance: '300px' //distancia
+		distance: '100px' //distancia
 
 
 	}); 
 
 		sr.reveal('.imagenPortada', {
 		duration: 2000, //tiempo
-		delay:500,
+		
 		//delay:1500,
-		origin: 'top', //origen
+		origin: 'bottom', //origen
 		distance: '500px' //distancia
 
 
 	}); 
 		sr.reveal('.nuestraBoda', {
 		duration: 1500, //tiempo
-		delay:500,
+		
 		origin: 'top', //origen
 		scale: 0.10,
 		distance: '-0' //distancia
@@ -41,8 +41,9 @@ window.sr = ScrollReveal();
 	});
 	sr.reveal('.nombres1', {
 		duration: 2000, //tiempo
-		delay:500,
-		origin: 'bottom', //origen
+
+		scale: 0.10,
+		origin: 'top', //origen
 		distance: '30px' //distancia
 
 
